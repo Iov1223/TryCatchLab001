@@ -38,7 +38,7 @@ namespace TryCatchLab001
                 Console.WriteLine(Names[i]);
             }
         }
-       
+
         public void FindeName(string name)
         {
             if (Names.Contains(name))
@@ -51,9 +51,11 @@ namespace TryCatchLab001
                 Console.WriteLine("Имя {0} ОТСУТСТВУЕТ в списке.", name);
             }
             Console.WriteLine();
-            ShowList();            
+            ShowList();
         }
     }
+
+
     class Program
     {
         static void Main(string[] args)
